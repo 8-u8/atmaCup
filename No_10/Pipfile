@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+sklearn = "*"
+kedro = "*"
+pycld2 = "*"
+fasttext = "*"
+geopy = "*"
+lightgbm = "*"
+catboost = "*"
+xgboost = "*"
+torch = "*"
+transformers = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
